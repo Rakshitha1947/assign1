@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Main content container */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Section titles */
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Bio-data table */
+.biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.biodata-table th,
+.biodata-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.biodata-table th {
+    background-color: #f7f7f7;
+    text-align: left;
+    width: 30%;
+}
